@@ -1,0 +1,10 @@
+#main-logo{
+    width: 5em;
+    display: flex;
+}
+
+#main-logo>img{
+    width: 3em;
+    margin: auto;
+    display: block;
+}

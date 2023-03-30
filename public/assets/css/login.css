@@ -1,0 +1,11 @@
+.remember_me_container{
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+.forgot_password_container{
+    width: max-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}

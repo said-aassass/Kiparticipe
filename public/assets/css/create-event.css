@@ -1,0 +1,79 @@
+#create-event-form{
+    width: 50em;
+    background-color: white;
+    margin: auto;
+    padding: 2em;
+}
+
+.file-input-container{
+    margin-left: 2em;
+}
+
+.file-input-container>button{
+    padding: 0.25em 0.5em;
+    background-color: #00beff;
+    color: white;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.file-input-container>button:hover{
+    background-color: #00a2d8;
+}
+
+.file-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.file-selection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.progress-bar-container{
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+
+.file-preview{
+    width: 25em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.file-preview img{
+    width: 100%;
+    display: block;
+}
+
+.submit-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.submit-container button{
+    padding: 0.5em 1em;
+    background-color: #dd3569;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.submit-container button:hover{
+    background-color: #c91b52;
+}

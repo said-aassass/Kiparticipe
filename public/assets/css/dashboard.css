@@ -1,0 +1,80 @@
+#dashboard-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.dashboard-section{
+    background-color: white;
+    width: 80%;
+    border: 1px solid silver;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+.list-link{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    align-self: stretch;
+}
+
+.list-link:hover{
+    background-color: #0088ff7a;
+    color: white;
+}
+
+.list-link:hover .icon{
+    color: white;
+}
+
+.list-link .icon{
+    color: silver;
+    font-size: 4em;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.list-link>p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.create-link{
+    width: 20%;
+    text-align: center;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-link:hover{
+    background-color: #0088ff7a;
+    color: white;
+}
+
+.create-link>span{
+    font-size: 5em;
+    color: #2297fc;
+}
+
+.create-link:hover>span{
+    color: white;
+}

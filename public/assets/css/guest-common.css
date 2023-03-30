@@ -1,0 +1,72 @@
+#main-header{
+    width: 100%;
+    box-shadow: 1px 1px 10px #b7b7b7;
+    margin-bottom: 2em;
+}
+
+#main-header nav{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#main-logo{
+    width: 15em;
+}
+
+#main-logo>img{
+    width: 5em;
+    margin: auto;
+    display: block;
+}
+
+#header-title{
+    font-size: 2.2em;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+
+#login-buttons{
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+#main-header .login-container{
+    margin-right: 2em;
+}
+
+#main-header .login-container a{
+    padding: 0.5em;
+    border-radius: 6px;
+    background-color: #dd3569;
+    color: white;    
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+
+#main-header .login-container a:hover{
+    background-color: #b1204e;
+}
+
+
+#main-header .register-container a{
+    padding: 0.5em;
+    border-radius: 6px;
+    background-color: #55b5e0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+#main-header .register-container a:hover{
+    background-color: #3592bd;
+}
