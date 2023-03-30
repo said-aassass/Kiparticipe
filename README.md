@@ -4,7 +4,7 @@
 
 3 - composer install
 
-4 - cp .env.example .env
+4 - copy .env.example .env
 
 5 - php artisan key:generate
 
