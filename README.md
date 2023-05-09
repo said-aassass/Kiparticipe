@@ -1,4 +1,4 @@
-1 - git clone https://github.com/said-aassass/eventies.git
+1 - git clone https://github.com/said-aassass/kiparticipe.git
 
 2 - cd eventies
 
